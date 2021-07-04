@@ -38,7 +38,7 @@ export default function LandingPage() {
 
   return (
     <StyledLandingPage>
-      <CategorySelectModal />
+      {/* <CategorySelectModal /> */}
       <StyledSectionTop>
         <animated.div style={divProps}>
           <h3>목표 달성을 위한 긴 여정,</h3>
