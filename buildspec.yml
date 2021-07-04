@@ -5,7 +5,7 @@ phases:
     runtime-versions:
       nodejs: 14
     commands:
-      - echo Checking Node version 14...
+      - echo Checking Node version 14......
       - node -v
       - npm -v
   pre_build:
