@@ -4,10 +4,10 @@ phases:
   install:
     commands:
       - echo Installing Node 16...
-      - sudo apt update
+      - apt update
       - curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
       - nvm install node
-      - sudo apt install npm
+      - apt install npm
       - npm install
   pre_build:
     commands:
